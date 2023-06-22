@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.event-item {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.event-img {
+  border-radius: 8px;
+  max-width: 200px;
+  width: 100%;
+  max-height: 150px;
+  height: 100%;
+  border: none;
+}
+.event-img:hover {
+  border: solid #2dd4bf 2px;
+}
+.image-name {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #f8fafc;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+.location {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #f8fafc;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.click-event-btn {
+  border: none;
+  background-color: transparent;
+  margin: 0px;
+  height: 150px;
+  width: 220px;
+}
